@@ -24,7 +24,6 @@ pip install matrix-math-group21
 > Make sure you have Python 3.7 or higher installed.
 
 ---
----
 
 ## 🚀 How to Use
 
