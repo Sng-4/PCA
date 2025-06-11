@@ -58,7 +58,23 @@ print(result)  # Output: [[6, 8], [10, 12]]
 ```
 
 #### ✖️ Multiply Two Matrices
+```python
+result = multiply_matrices(matrix_a, matrix_b)
+print(result)  # Output: [[19, 22], [43, 50]]
+```
 
+---
+
+## ⚠️ Error Handling
+
+- If matrices in `add_matrices` do **not** have the same shape, a `ValueError` is raised. e.g "Marvin you know how matrixes work please try again, make sure they are the same dimensions this time"
+- If matrices in `multiply_matrices` are **not compatible**, a `ValueError` is raised. e.g "You're not a quality tester please make sure the number of columns match the rows, Marvin"
+
+---
+
+## 👤 Author
+
+Built by **Group 21** as a learning project.
 ```python
 result = multiply_matrices(matrix_a, matrix_b)
 print(result)  # Output: [[19, 22], [43, 50]]
